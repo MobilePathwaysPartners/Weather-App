@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		797CC98C24D5ABF70005ADB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797CC98B24D5ABF70005ADB6 /* AppDelegate.swift */; };
+		797CC98E24D5ABF70005ADB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797CC98D24D5ABF70005ADB6 /* ViewController.swift */; };
+		797CC99124D5ABF70005ADB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 797CC98F24D5ABF70005ADB6 /* Main.storyboard */; };
+		797CC99324D5ABF90005ADB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 797CC99224D5ABF90005ADB6 /* Assets.xcassets */; };
+		797CC99624D5ABF90005ADB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 797CC99424D5ABF90005ADB6 /* LaunchScreen.storyboard */; };
+		797CC9A124D5ABF90005ADB6 /* Awesome_Weatehr_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797CC9A024D5ABF90005ADB6 /* Awesome_Weatehr_AppTests.swift */; };
+		797CC9AC24D5ABF90005ADB6 /* Awesome_Weatehr_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797CC9AB24D5ABF90005ADB6 /* Awesome_Weatehr_AppUITests.swift */; };
+		797CC9BC24D5B42C0005ADB6 /* Weather.png in Resources */ = {isa = PBXBuildFile; fileRef = 797CC9BB24D5B42B0005ADB6 /* Weather.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		797CC99D24D5ABF90005ADB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 797CC98024D5ABF60005ADB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 797CC98724D5ABF60005ADB6;
+			remoteInfo = "Awesome Weatehr App";
+		};
+		797CC9A824D5ABF90005ADB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 797CC98024D5ABF60005ADB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 797CC98724D5ABF60005ADB6;
+			remoteInfo = "Awesome Weatehr App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		797CC98824D5ABF60005ADB6 /* Awesome Weatehr App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Awesome Weatehr App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		797CC98B24D5ABF70005ADB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		797CC98D24D5ABF70005ADB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		797CC99024D5ABF70005ADB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		797CC99224D5ABF90005ADB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		797CC99524D5ABF90005ADB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		797CC99724D5ABF90005ADB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		797CC99C24D5ABF90005ADB6 /* Awesome Weatehr AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Awesome Weatehr AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		797CC9A024D5ABF90005ADB6 /* Awesome_Weatehr_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Awesome_Weatehr_AppTests.swift; sourceTree = "<group>"; };
+		797CC9A224D5ABF90005ADB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		797CC9A724D5ABF90005ADB6 /* Awesome Weatehr AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Awesome Weatehr AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		797CC9AB24D5ABF90005ADB6 /* Awesome_Weatehr_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Awesome_Weatehr_AppUITests.swift; sourceTree = "<group>"; };
+		797CC9AD24D5ABF90005ADB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		797CC9BB24D5B42B0005ADB6 /* Weather.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Weather.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		797CC98524D5ABF60005ADB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		797CC99924D5ABF90005ADB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		797CC9A424D5ABF90005ADB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		797CC97F24D5ABF60005ADB6 = {
+			isa = PBXGroup;
+			children = (
+				797CC98A24D5ABF70005ADB6 /* Awesome Weatehr App */,
+				797CC99F24D5ABF90005ADB6 /* Awesome Weatehr AppTests */,
+				797CC9AA24D5ABF90005ADB6 /* Awesome Weatehr AppUITests */,
+				797CC98924D5ABF60005ADB6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		797CC98924D5ABF60005ADB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				797CC98824D5ABF60005ADB6 /* Awesome Weatehr App.app */,
+				797CC99C24D5ABF90005ADB6 /* Awesome Weatehr AppTests.xctest */,
+				797CC9A724D5ABF90005ADB6 /* Awesome Weatehr AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		797CC98A24D5ABF70005ADB6 /* Awesome Weatehr App */ = {
+			isa = PBXGroup;
+			children = (
+				797CC98B24D5ABF70005ADB6 /* AppDelegate.swift */,
+				797CC98D24D5ABF70005ADB6 /* ViewController.swift */,
+				797CC98F24D5ABF70005ADB6 /* Main.storyboard */,
+				797CC9BB24D5B42B0005ADB6 /* Weather.png */,
+				797CC99224D5ABF90005ADB6 /* Assets.xcassets */,
+				797CC99424D5ABF90005ADB6 /* LaunchScreen.storyboard */,
+				797CC99724D5ABF90005ADB6 /* Info.plist */,
+			);
+			path = "Awesome Weatehr App";
+			sourceTree = "<group>";
+		};
+		797CC99F24D5ABF90005ADB6 /* Awesome Weatehr AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				797CC9A024D5ABF90005ADB6 /* Awesome_Weatehr_AppTests.swift */,
+				797CC9A224D5ABF90005ADB6 /* Info.plist */,
+			);
+			path = "Awesome Weatehr AppTests";
+			sourceTree = "<group>";
+		};
+		797CC9AA24D5ABF90005ADB6 /* Awesome Weatehr AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				797CC9AB24D5ABF90005ADB6 /* Awesome_Weatehr_AppUITests.swift */,
+				797CC9AD24D5ABF90005ADB6 /* Info.plist */,
+			);
+			path = "Awesome Weatehr AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		797CC98724D5ABF60005ADB6 /* Awesome Weatehr App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 797CC9B024D5ABF90005ADB6 /* Build configuration list for PBXNativeTarget "Awesome Weatehr App" */;
+			buildPhases = (
+				797CC98424D5ABF60005ADB6 /* Sources */,
+				797CC98524D5ABF60005ADB6 /* Frameworks */,
+				797CC98624D5ABF60005ADB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Awesome Weatehr App";
+			productName = "Awesome Weatehr App";
+			productReference = 797CC98824D5ABF60005ADB6 /* Awesome Weatehr App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		797CC99B24D5ABF90005ADB6 /* Awesome Weatehr AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 797CC9B324D5ABF90005ADB6 /* Build configuration list for PBXNativeTarget "Awesome Weatehr AppTests" */;
+			buildPhases = (
+				797CC99824D5ABF90005ADB6 /* Sources */,
+				797CC99924D5ABF90005ADB6 /* Frameworks */,
+				797CC99A24D5ABF90005ADB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				797CC99E24D5ABF90005ADB6 /* PBXTargetDependency */,
+			);
+			name = "Awesome Weatehr AppTests";
+			productName = "Awesome Weatehr AppTests";
+			productReference = 797CC99C24D5ABF90005ADB6 /* Awesome Weatehr AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		797CC9A624D5ABF90005ADB6 /* Awesome Weatehr AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 797CC9B624D5ABF90005ADB6 /* Build configuration list for PBXNativeTarget "Awesome Weatehr AppUITests" */;
+			buildPhases = (
+				797CC9A324D5ABF90005ADB6 /* Sources */,
+				797CC9A424D5ABF90005ADB6 /* Frameworks */,
+				797CC9A524D5ABF90005ADB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				797CC9A924D5ABF90005ADB6 /* PBXTargetDependency */,
+			);
+			name = "Awesome Weatehr AppUITests";
+			productName = "Awesome Weatehr AppUITests";
+			productReference = 797CC9A724D5ABF90005ADB6 /* Awesome Weatehr AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		797CC98024D5ABF60005ADB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Bill Skrzypczak";
+				TargetAttributes = {
+					797CC98724D5ABF60005ADB6 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					797CC99B24D5ABF90005ADB6 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 797CC98724D5ABF60005ADB6;
+					};
+					797CC9A624D5ABF90005ADB6 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 797CC98724D5ABF60005ADB6;
+					};
+				};
+			};
+			buildConfigurationList = 797CC98324D5ABF60005ADB6 /* Build configuration list for PBXProject "Awesome Weatehr App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 797CC97F24D5ABF60005ADB6;
+			productRefGroup = 797CC98924D5ABF60005ADB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				797CC98724D5ABF60005ADB6 /* Awesome Weatehr App */,
+				797CC99B24D5ABF90005ADB6 /* Awesome Weatehr AppTests */,
+				797CC9A624D5ABF90005ADB6 /* Awesome Weatehr AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		797CC98624D5ABF60005ADB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				797CC99624D5ABF90005ADB6 /* LaunchScreen.storyboard in Resources */,
+				797CC99324D5ABF90005ADB6 /* Assets.xcassets in Resources */,
+				797CC9BC24D5B42C0005ADB6 /* Weather.png in Resources */,
+				797CC99124D5ABF70005ADB6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		797CC99A24D5ABF90005ADB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		797CC9A524D5ABF90005ADB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		797CC98424D5ABF60005ADB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				797CC98E24D5ABF70005ADB6 /* ViewController.swift in Sources */,
+				797CC98C24D5ABF70005ADB6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		797CC99824D5ABF90005ADB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				797CC9A124D5ABF90005ADB6 /* Awesome_Weatehr_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		797CC9A324D5ABF90005ADB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				797CC9AC24D5ABF90005ADB6 /* Awesome_Weatehr_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		797CC99E24D5ABF90005ADB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 797CC98724D5ABF60005ADB6 /* Awesome Weatehr App */;
+			targetProxy = 797CC99D24D5ABF90005ADB6 /* PBXContainerItemProxy */;
+		};
+		797CC9A924D5ABF90005ADB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 797CC98724D5ABF60005ADB6 /* Awesome Weatehr App */;
+			targetProxy = 797CC9A824D5ABF90005ADB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		797CC98F24D5ABF70005ADB6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				797CC99024D5ABF70005ADB6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		797CC99424D5ABF90005ADB6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				797CC99524D5ABF90005ADB6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		797CC9AE24D5ABF90005ADB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 13.4;
+			};
+			name = Debug;
+		};
+		797CC9AF24D5ABF90005ADB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 13.4;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		797CC9B124D5ABF90005ADB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JD548BN3B;
+				INFOPLIST_FILE = "Awesome Weatehr App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BulldogVenturesInc.Awesome-Weatehr-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		797CC9B224D5ABF90005ADB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JD548BN3B;
+				INFOPLIST_FILE = "Awesome Weatehr App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BulldogVenturesInc.Awesome-Weatehr-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		797CC9B424D5ABF90005ADB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JD548BN3B;
+				INFOPLIST_FILE = "Awesome Weatehr AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BulldogVenturesInc.Awesome-Weatehr-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Awesome Weatehr App.app/Awesome Weatehr App";
+				TVOS_DEPLOYMENT_TARGET = 13.4;
+			};
+			name = Debug;
+		};
+		797CC9B524D5ABF90005ADB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JD548BN3B;
+				INFOPLIST_FILE = "Awesome Weatehr AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BulldogVenturesInc.Awesome-Weatehr-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Awesome Weatehr App.app/Awesome Weatehr App";
+				TVOS_DEPLOYMENT_TARGET = 13.4;
+			};
+			name = Release;
+		};
+		797CC9B724D5ABF90005ADB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JD548BN3B;
+				INFOPLIST_FILE = "Awesome Weatehr AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BulldogVenturesInc.Awesome-Weatehr-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "Awesome Weatehr App";
+			};
+			name = Debug;
+		};
+		797CC9B824D5ABF90005ADB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JD548BN3B;
+				INFOPLIST_FILE = "Awesome Weatehr AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BulldogVenturesInc.Awesome-Weatehr-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "Awesome Weatehr App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		797CC98324D5ABF60005ADB6 /* Build configuration list for PBXProject "Awesome Weatehr App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				797CC9AE24D5ABF90005ADB6 /* Debug */,
+				797CC9AF24D5ABF90005ADB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		797CC9B024D5ABF90005ADB6 /* Build configuration list for PBXNativeTarget "Awesome Weatehr App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				797CC9B124D5ABF90005ADB6 /* Debug */,
+				797CC9B224D5ABF90005ADB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		797CC9B324D5ABF90005ADB6 /* Build configuration list for PBXNativeTarget "Awesome Weatehr AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				797CC9B424D5ABF90005ADB6 /* Debug */,
+				797CC9B524D5ABF90005ADB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		797CC9B624D5ABF90005ADB6 /* Build configuration list for PBXNativeTarget "Awesome Weatehr AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				797CC9B724D5ABF90005ADB6 /* Debug */,
+				797CC9B824D5ABF90005ADB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 797CC98024D5ABF60005ADB6 /* Project object */;
+}
